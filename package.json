@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/escobard/udacity-web-tooling-and-automation/issues"
   },
-  "homepage": "https://github.com/escobard/udacity-web-tooling-and-automation#readme"
+  "homepage": "https://github.com/escobard/udacity-web-tooling-and-automation#readme",
+  "devDependencies": {
+    "gulp-autoprefixer": "^3.1.1"
+  }
 }
