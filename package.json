@@ -1,0 +1,30 @@
+{
+  "name": "web-tooling-and-automation",
+  "version": "1.0.0",
+  "description": "first package",
+  "main": "index.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-git": "^1.12.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/escobard/udacity-web-tooling-and-automation.git"
+  },
+  "keywords": [
+    "web",
+    "tooling",
+    "and",
+    "automation"
+  ],
+  "author": "Daniel Escobar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/escobard/udacity-web-tooling-and-automation/issues"
+  },
+  "homepage": "https://github.com/escobard/udacity-web-tooling-and-automation#readme"
+}
