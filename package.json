@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/escobard/udacity-web-tooling-and-automation#readme",
   "devDependencies": {
+    "bower-sync": "^0.1.1",
+    "gulp": "^3.9.1",
     "gulp-autoprefixer": "^3.1.1"
   }
 }

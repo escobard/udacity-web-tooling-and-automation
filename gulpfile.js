@@ -1,6 +1,8 @@
+// sets the variables for the gulp function 
 var gulp = require('gulp');
 var sass = require('gulp-sass');
 var autoprefixer = require('gulp-autoprefixer');
+var browserSync = require('browser-sync').create();
 
 gulp.task('default',function(){
 	console.log('Hello World');
@@ -15,3 +17,8 @@ gulp.task('styles',function (){
 		}))
 		.pipe(gulp.dest('./css'));
 });
+
+ browserSync.init({
+     server: "./"
+ });
+ browserSync.stream();
