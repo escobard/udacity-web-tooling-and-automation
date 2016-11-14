@@ -4,6 +4,11 @@ var sass = require('gulp-sass');
 var autoprefixer = require('gulp-autoprefixer');
 var browserSync = require('browser-sync').create();
 
+ browserSync.init({
+     server: "index.html"
+ });
+ browserSync.stream();
+
 gulp.task('default',function(){
 	console.log('Hello World');
 	gulp.watch ('sass/**/.scss', ['styles']);
@@ -18,7 +23,3 @@ gulp.task('styles',function (){
 		.pipe(gulp.dest('./css'));
 });
 
- browserSync.init({
-     server: "./"
- });
- browserSync.stream();
